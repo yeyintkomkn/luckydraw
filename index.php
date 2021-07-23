@@ -57,12 +57,15 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<h1 class="number1 count" id="result">143</h1>
+						<h1 class="number1 count" id="result"></h1>
 						<h1 class="number2" id="countdown_timer">00:00</h1>
 						<h3 class="number3">Lucky Number</h3>
 				        <div class="aa">
-				        	<!-- <h1 id="result2" style="margin-left: 30px">22</h1> -->
-				        	<input type="text" id="result2">
+							<center>
+							<h1 id="result2" id='result2'>-</h1>
+							</center>
+				        	
+				        	<!-- <input type="text" id="result2"> -->
 				        </div>
 					</div>
 					<div class="col-md-4">

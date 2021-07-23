@@ -43,7 +43,7 @@
 		var result = Math.floor(Math.random() * (max-min+1)+min) ;
 		if (lucky_numbers.indexOf(result)==-1) {// if result_no is not include result_arr
 			document.getElementById("result").innerHTML=result;
-			document.getElementById("result2").value=result;
+			document.getElementById("result2").innerHTML=result;
 			console.log(result);
 			lucky_numbers.push(result);
 			console.log(lucky_numbers);
